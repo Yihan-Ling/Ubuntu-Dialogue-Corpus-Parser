@@ -10,7 +10,7 @@ This open-source corpus can be found available [_here_](https://github.com/npow/
 
 
 
-##Introduction 
+## Introduction 
 I used this corpus to find the most frequently occurred person in this corpus, and then parse and extract all the conversations involving that specific person (as sender or recipient).
 The format of the parsed conversation would look like this:
 ```
@@ -22,7 +22,7 @@ The format of the parsed conversation would look like this:
 ```
 `[me]` represents the most often occurred person and `[others]` is the other participant in the chat. 
 
-##Method 
+## Method 
 I first download the .tgz file containing all the information using this [link](http://cs.mcgill.ca/~jpineau/datasets/ubuntu-corpus-1.0/ubuntu_dialogs.tgz). I then unzipped the file using the command:
 ```
 $ tar -xvzf ubuntu_dialogs.tg
@@ -42,12 +42,12 @@ Knowing the most frequently occurred speaker is `ActionParsnip`, I created `dial
 - `dialogue_restrict.py` takes in the `dialogue.tsv` file as input and creates a .txt file named `ActionParsnip_chat.txt` under path `./data/parsed_data/` as output
 - `ActionParsnip_chat.txt` is included in this GitHub repository. Due to the size of the files, other files such as `dialogue.tsv` are not included.
 
-##Setup 
+## Setup 
 For `dialogue_counter.py` to run correctly, it requires `pandas` package installed.
 
 For installation, please refer to this [document](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html).
 
-##Procedure
+## Procedure
 To replicate this process described above, follow the instructions below: 
 
 1. Go to this [link](http://cs.mcgill.ca/~jpineau/datasets/ubuntu-corpus-1.0/ubuntu_dialogs.tgz), a .tgz file will be downloaded automatically. 
@@ -70,7 +70,7 @@ It is set to `ActionParsnip` by default.
 
 _The extraction result will be under this path: `/data/parsed_data/{speaker_name}_chat.txt`_
 
-##Reference 
+## Reference 
 - Ubuntu Dialogue Corpus:
 
 Lowe, Ryan, et al. “The Ubuntu Dialogue Corpus: A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems.” Proceedings of the 16th Annual Meeting of the Special Interest Group on Discourse and Dialogue, 30 June 2015, https://doi.org/10.18653/v1/w15-4640. 
