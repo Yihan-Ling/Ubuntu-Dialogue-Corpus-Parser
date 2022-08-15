@@ -1,5 +1,6 @@
 import os
 output_file_path = './data/parsed_data/dialogue.tsv'
+combine_num = 100
 
 def main():
     input_path = './data/dialogs'
@@ -9,7 +10,7 @@ def main():
         num = root[15:]
         if(len(num)<1):
             continue
-        if(int(num)>100):
+        if(int(num)>combine_num):
             continue
         # print(root)
         for file in files:
