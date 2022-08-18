@@ -11,7 +11,7 @@ This open-source corpus can be found available [_here_](https://github.com/npow/
 
 
 ## Introduction 
-I used this corpus to find the most frequently occurred person in this corpus, and then parse and extract all the conversations involving that specific person (as sender or recipient).
+I used this parser to find the most frequently occurred person in this corpus, and then parse and extract all the conversations involving that specific person (as sender or recipient).
 The format of the parsed conversation would look like this:
 ```
 [me] ...
