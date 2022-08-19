@@ -2,6 +2,8 @@
 >This repository contains the source code for the models used in the following paper:
 >(Fill Research Paper Publication link when available)
 
+> This project was created during Summer of 2022
+
 
 ## Background 
 This Corpus Parser is based on the open-source Ubuntu Dialogue Corpus by Lowe, Ryan, et al. The Corpus consists of almost one million one-to-one chat dialogues from Ubuntu technical support.
